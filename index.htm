@@ -11,7 +11,7 @@ as well as w3schools, stackoverflow and other online sources available for helpi
 
 body {
 font-family: verdana;
-font-size: 12px;
+font-size: 14px;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -19,25 +19,28 @@ flex-direction: row;
 background: linear-gradient(30deg, #ffffff, #ffffff, #0000ff, #0099ff, #aaff00, #ffffff, #ffffff);
 background-attachment: fixed;}
 
+ #box {
+width: 50%;
+top: 100px;
+padding: 15px;
+box-shadow: 15px 20px 0px 0px rgba(0,0,0,0.15);
+border: 6px dashed #ddd;
+background: #fff;}
   
 h1 {
 color: #FFF;
 font-size: 2em;
-line-height: 20px;
+line-height: 40px;
+ font-weight: normal;
 text-align: center;
 background: #4DB7F4;}
  
  h2 {
  font-size: 1.5em;
- border-right: 2px dotted #3F93C4;}
+  font-weight: normal;
+  letter-spacing: 3px;
+ border-right: 5px dotted #3F93C4;}
 
-#box {
-width: 50%;
-top: 100px;
-padding: 15px;
-box-shadow: 15px 20px 0px 0px rgba(0,0,0,0.15);
-border: 4px solid #FFF;
-background: #CCC;}
 
 </style>
 
@@ -46,7 +49,7 @@ background: #CCC;}
 
  <intro>
 <h1>Hello World</h1>
-<p>
+<p style="text-align: justify;">
 If you have stumbled here, then I welcome you. I also welcome you if you chose to come here on purpose. On this page
  I'll be talking who I am, my interest and current experience in coding, and a bit about my aspirations. Throughout this process 
  I will be showing what I have learned so far (mostly HTML/CSS) and will be using this page as a testing area. Feel free to leave 
